@@ -44,21 +44,58 @@
 // }
 
 
-let a = "+"
-let b = 20
-let c = 40
+// let a = "+"
+// let b = 20
+// let c = 40
 
-switch (a) {
-    case "+":
-        console.log(c + b);
-        break;
-    case "-":
-        console.log(c - b);
-        break;
-    case "+":
-        console.log(a * b);
-        break;
+// switch (a) {
+//     case "+":
+//         console.log(c + b);
+//         break;
+//     case "-":
+//         console.log(c - b);
+//         break;
+//     case "+":
+//         console.log(a * b);
+//         break;
 
-    default:
-        break;
+//     default:
+//         break;
+// }
+
+
+
+
+// logical operators
+
+// AND  means &&   All condition should be true 
+
+// let age = 20;
+// let gender = "Male";
+
+
+// if (age > 18 && gender == "Male") {
+//     console.log("Yes you are right");
+
+// } else {
+//     console.log("Yes you are not  right");
+
+// }
+
+
+
+// OR ||  atleast one condition should be true 
+
+
+let age = 22;
+let gender = "Male";
+
+
+if (age > 18 || gender == "Male") {
+    console.log("Yes you are right");
+
+} else {
+    console.log("Yes you are not  right");
+
 }
+
